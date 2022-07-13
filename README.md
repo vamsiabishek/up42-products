@@ -40,7 +40,9 @@ The fetched api details are stored in `context/BlockContext.tsx` and can be acce
 Run the following command: `npm run test`, this also provides the coverage of the test files.
 
 Test use Facebook's JEST framework for testing: http://facebook.github.io/jest/
-and Teact testing library: https://testing-library.com/docs/react-testing-library/intro/
+and React testing library: https://testing-library.com/docs/react-testing-library/intro/
+
+The mock data is available in the `mocks` folder which is used for testing.
 
 To add or remove the files/folders from test coverage, you can edit the `collectCoverageFrom` property inside `jest.config.js`
 
