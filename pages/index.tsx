@@ -2,9 +2,11 @@ import { IBlock } from '../interfaces/Block';
 import BlocksTemplate from '../components/molecules/block/BlocksTemplate'
 import BlockContextProvider from '../context/BlockContext'
 
+import { GetServerSidePropsContext } from "next";
 
-export async function getServerSideProps() {
-  const result = await fetch(`http://localhost:3000/api/blocks`)
+
+export async function getServerSideProps(context: GetServerSidePropsContext) {
+  const result = await fetch(`http://${context.req.headers.host}/api/blocks`)
   const data = await result.json()
 
   return { props: { data } }
