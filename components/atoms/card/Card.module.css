@@ -1,0 +1,15 @@
+.card {
+    width: 210px;
+    min-height: 240px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}

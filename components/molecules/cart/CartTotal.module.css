@@ -1,0 +1,17 @@
+.container {
+    margin: 15px 10px;
+}
+
+.cartTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    font-size: 20px;
+    text-transform: capitalize
+}
+
+.buyBtn {
+    width: 100%;
+}

@@ -1,0 +1,14 @@
+.cartItems {
+    max-height: 70vh;
+    overflow: scroll;
+}
+
+.cartCard {
+    width: auto;
+    min-height: auto;
+} 
+
+.cartCredits {
+    display: flex;
+    justify-content: flex-end;
+}
