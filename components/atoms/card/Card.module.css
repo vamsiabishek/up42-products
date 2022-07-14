@@ -13,3 +13,17 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 600px) {
+    .card {
+        width: 170px !important;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+}

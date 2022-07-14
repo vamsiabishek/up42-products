@@ -10,3 +10,9 @@
 .block {
     margin: 15px;
 }
+
+@media (max-width: 600px) {
+    .block {
+        margin: 5px;
+    }
+}

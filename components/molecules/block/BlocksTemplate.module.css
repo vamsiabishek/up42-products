@@ -19,3 +19,17 @@
 .cart {
     width: 20%
 }
+
+@media (max-width: 600px) {
+    .container {
+        margin: 0px;
+    }
+
+    .blocks {
+        width: 50%;
+    }
+
+    .cart {
+        width: 50%
+    }
+}

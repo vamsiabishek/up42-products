@@ -12,3 +12,10 @@
     display: flex;
     justify-content: flex-end;
 }
+
+@media (max-width: 600px) {
+    .cartCredits {
+        justify-content: flex-start;
+    }
+}
+

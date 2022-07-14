@@ -29,10 +29,10 @@ function CardComponent({id, displayName, credits, addToCart, creditsStyle, cardS
   return (
     <Card className={`${styles.card} ${cardStyle}`}>
        <Card.Body className={styles.content}>
-        <Card.Title>{displayName}</Card.Title>
+        <Card.Title className={styles.title}>{displayName}</Card.Title>
         <div className={count ? styles.details : ''}>
           {count && onQuantityChange &&
-            <div>
+            <div className={styles.quantity}>
                 <QuantityDropdown selectedValue={count} onSelect={onQuantitySelect} />
                 <Button variant="link" onClick={() => onQuantityChange(id, 0)}>remove</Button>
             </div>
